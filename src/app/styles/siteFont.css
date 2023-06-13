@@ -1,0 +1,118 @@
+body {
+    font-weight: 600;
+    font-size: 16px !important;
+    font-family: "IBM Plex Sans", sans-serif !important;
+}
+.font-flair {
+    font-family: "Playfair Display", serif !important;
+}
+.font-ibm {
+    font-family: "IBM Plex Sans", sans-serif !important;
+}
+.font-flair-18 {
+    font-size: 18px;
+}
+.font-flair-22 {
+    font-size: 22px;
+}
+/* font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'Playfair Display', serif; */
+.font-22 {
+    font-size: 22px !important;
+}
+.ibm-font-22 {
+    font-size: 22px !important;
+}
+.ibm-regular {
+    font-weight: 500 !important;
+}
+.head-sub {
+    font-size: 40px;
+}
+.ibm-font-16 {
+    font-size: 16px;
+}
+.ibm-font-18 {
+    font-size: 18px;
+}
+.ibm-font-22 {
+    font-size: 22px;
+}
+.ibm-font-26 {
+    font-size: 26px;
+}
+.font-18 {
+    font-size: 18px;
+}
+.head-desc p {
+    font-size: 28px;
+}
+.head-title {
+    font-weight: 700;
+    font-size: 56px;
+}
+.head-title-sub {
+    font-size: 36px;
+}
+.ibm-font-light {
+    font-weight: 400;
+}
+.ibm-font-38 {
+    font-size: 38px;
+}
+.ibm-font-medium {
+    font-weight: 500;
+}
+.ibm-semi-bold {
+    font-weight: 600;
+}
+.read-more {
+    font-size: 16px;
+}
+.video-block .desc h3 {
+    font-size: 26px;
+}
+.video-block .desc p {
+    font-size: 20px;
+    font-weight: 500;
+}
+#spotlight .hero-text,
+#banner .hero-text {
+    font-size: 60px;
+    font-weight: 800;
+}
+.floating-btn {
+    font-size: 26px;
+}
+.searchBtn span i  {
+    font-size: 22px;
+}
+.close {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.cartbtn small  {
+    font-size: 10px;
+    font-weight: 700;
+}
+.head-title-child-sub {
+    font-weight: 500;
+    font-size: 42px;
+}
+.banner_text {
+    font-size: 60px;
+    font-weight: 800;
+}
+.font-flair-regular {
+    font-weight: 500;
+}
+.font-flair-32 {
+    font-size: 32px;
+}
+.site_pagination .page-item .page-link {
+    font-weight: 600;
+}
+.side_list_menu li ul li a {
+    font-weight: 800;
+    font-size: 18px;
+}

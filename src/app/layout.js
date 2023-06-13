@@ -1,5 +1,18 @@
-import './globals.css'
 import { Inter } from 'next/font/google'
+//import './globals.css';
+import '@/app/styles/style.css';
+import '@/app/styles/theme-yellow.css';
+import '@/app/styles/siteFont.css';
+import '@/app/styles/responsive.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '@/app/styles/animate.min.css';
+import '@/app/styles/ckin.css';
+import '@/app/styles/lineawesome.css';
+
+
+
+
+import { SSRProvider } from '@/app/components/Bootstrap';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -11,7 +24,19 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+      </head>
+    
+      <body className={inter.className}>
+      <div className="wrapOuter">
+        <SSRProvider>
+        {children}
+        </SSRProvider>
+      </div>
+      </body>
     </html>
   )
 }

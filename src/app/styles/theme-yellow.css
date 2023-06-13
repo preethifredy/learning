@@ -1,0 +1,155 @@
+:root{
+    --bg-yellow : #ffcb0d;
+    --text-yellow : #ffcb0d;
+    --bg-grey : #f4f4f4;
+}
+.bg-yellow {
+    background: var(--bg-yellow) !important;
+}
+.text-yellow {
+    color: var(--text-yellow) !important;
+}
+.hover-theme:hover {
+    color: #ffca0a !important;
+}
+.custom-head {
+    border-top: 5px solid #ffcb0d;
+}
+.innerPage #header {
+    border-top: 4px solid #ffca0a;
+}
+.play-btn-group .btn-play i {
+    color: #ffca0a;
+}
+.progressBarContainer div span.progressBar .inProgress  {
+    background-color: #ffca0a;
+}
+.foot-menu li a:hover {
+    color: #ffcb0d;
+}
+  .share-widget .link-btn:hover {
+    color: #ffca0a !important;
+} 
+.fig-overlay:hover .read-more {
+    color: #ffcb0d !important;
+}
+.descwrap .btn-hover:hover {
+    color: #f1c40f !important;
+}
+body .form-control:focus {
+    border-color: #ffe480;
+}
+.block_nav_pills .nav-pills .nav-link.active:after,
+.block_nav_pills .nav-pills .show.nav-link:after  {
+    background: #ffcb0d;
+}
+.section-block .owl-theme .owl-dots button.owl-dot.active span {
+    background: #ffcb0d !important;
+}
+.head-desc:after {
+    background: #ffcb0d;
+}
+.text-black.read-more:hover,
+.text-light.read-more:hover,
+.text-dark.read-more:hover,
+.text-white.read-more:hover,
+.text-yellow.read-more:hover {
+    color: #000 !important;
+    background: #ffc900;
+    border: 1px solid #ffc900;
+}
+.carousel-indicators [data-bs-target] span {
+    background: #ffcb0d;
+}
+.navbar-nav .nav-item.active .nav-link:after {
+    background: #ffcb0d;
+}
+.accordion-button.collapsed {
+    background: var(--bg-grey);
+}
+.accordion-button:not(.collapsed) {
+    background: var(--bg-yellow) !important;
+}
+.site_pagination .page-item.active .page-link {
+    background-color: #ffc900 !important;
+}
+.site_pagination .page-item .page-link ,
+.site_pagination .page-item.active .page-link {
+    color: #000;
+}
+
+/* top_filter */
+.top_filter_menu li {
+    color: #222;
+}
+.top_filter_menu li.all:before {
+    background: #666;
+}
+.ayur_badge_bg:before {
+    background: #ff7a00;
+}
+.hotel_badge_bg:before {
+    background: #6740aa;
+}
+.resort_badge_bg:before {
+    background: #87572b;
+}
+.villa_badge_bg:before {
+    background: #f0b800;
+}
+.homestay_badge_bg:before {
+    background: #24b0a5;
+}
+.griha_badge_bg:before {
+    background: #0380bd;
+}
+.read-more {
+    border: 1px solid #a7a7a7;
+}
+.side_list_menu li ul li a i {
+    color: #ffcb0d;
+}
+.side_list_menu li ul li a:hover {
+    color: #ffcb0d;
+}
+/* #sticky_menu .nav-item.active .nav-link {
+    color: #ffcb0d;
+    border-bottom: 1px solid #ffcb0d;
+    margin-bottom: -1px;
+} */
+.mid-sec .head-span1:hover a.heroText,
+.mid-sec .head-span2:hover a.heroText {
+    color: #ffcb0d !important;
+}
+.mid-sec .head-span1:hover::before,
+.mid-sec .head-span2:hover::before,
+.mid-sec .head-span2:hover::after {
+    background: #ffcb0d;
+}
+/* .mid-sec .head-span3 a:hover {
+    color: #fff !important;
+} */
+.select-bar:before, .select-bar:after  {
+    background: #ffcb0d;
+}
+.block_nav_pills .nav-pills .nav-link:hover {
+    color: #f1c40f;
+}
+#list ul li {
+    background: var(--bg-yellow);
+}
+/* top_filter */
+@media screen and (max-width: 991px) {
+    #header {
+        background: #ffca0a;
+    }
+    #header.menu_fixed {
+        background: #ffcb0d;
+    }
+    #header .navbar-expand-lg .navbar-nav .nav-link {
+        color: #000 !important;
+    }
+    .mob-bg-yellow {
+        background: #ffca0a;
+    }
+}

@@ -1236,7 +1236,7 @@ button:focus-visible {
     width: 32px;
     position: absolute;
     background-size: 32px !important;
-    background: url('../images/play-btn.png') no-repeat;
+    background: url('/images/play-btn.png') no-repeat;
     transition: opacity 0.6s;
     -webkit-transition: opacity 0.6s;
     -moz-transition: opacity 0.6s;
@@ -1257,7 +1257,7 @@ button:focus-visible {
     width: 32px;
     position: absolute;
     background-size: 32px !important;
-    background: url('../images/pause-btn.png') no-repeat;
+    background: url('/images/pause-btn.png') no-repeat;
   } */
   /* play pause */
   /* .progressBarContainer {
@@ -1644,7 +1644,7 @@ button:focus-visible {
     border: none !important;
     background-size: 12px !important;
     margin: 0 auto;
-    background: url(../images/icondown.png) no-repeat;
+    background: url(/images/icondown.png) no-repeat;
     height: 32px;
     background-position: center;
 } */
